@@ -16,4 +16,5 @@ Takes user to a forged/faked generated URL.
 1) http://magnus.jalatechnologies.com//Account/Login/acct=AttackerA&password=$100  
 2) http://magnus.jalatechnologies.com/Account/AdminLogin/acct=AttackerA&password=$100 
 
-
+# Impact of CSRF
+The actual request sent by user to site is being forged by the attacker by using the malicious one and all the information is sent to the attacker without the user knowing it. 
