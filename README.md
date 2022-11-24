@@ -7,7 +7,7 @@ CSRF stands for Cross Site Request Foregery. Also known as XSRF. IT is an attack
 Takes user to a forged/faked generated URL. 
 
 # Steps to perform CSRF 
-1- URL is being created from the desired website to perform attack. 
-2- Hyperlink of that URL is sent to the attacker who is logged in that website. 
-3- The attacker clicks to the link and the request is sent. 
-4- Website fulfills the request and the authetication is sent to the attacker. 
+1) URL is being created from the desired website to perform attack. 
+2) Hyperlink of that URL is sent to the attacker who is logged in that website. 
+3) The attacker clicks to the link and the request is sent. 
+4) Website fulfills the request and the authetication is sent to the attacker. 
